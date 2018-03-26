@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1076248056848",
+    "firebase_url": "https://hes-fashion.firebaseio.com",
+    "project_id": "hes-fashion",
+    "storage_bucket": "hes-fashion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076248056848:android:c9994be0641dbe5a",
+        "android_client_info": {
+          "package_name": "com.hevaisoi.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076248056848-el3n8289uekl0mpveolbjgqav2vtm0ho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hevaisoi.android",
+            "certificate_hash": "08ebef3df66004c4dffee7c540d128bd4c182ba9"
+          }
+        },
+        {
+          "client_id": "1076248056848-62dd4mdb5n54ujl889mqvj3og8h3kmu9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1076248056848-kc8ph7l3gpk86b2hsspkn3jkpm7ftrj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT2Q2R7IBmNmErMnmo1UJ_hhDnYf5k-os"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

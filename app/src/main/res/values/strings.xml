@@ -1,0 +1,59 @@
+<resources>
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_banner_home_footer">ca-app-pub-3617931172105539/2904486599</string>
+    <string name="admob_interstitial_full_screen">ca-app-pub-3617931172105539/7002076918</string>
+    <!-- FAN ad unit IDs -->
+    <string name="fan_banner_placement_id">1670009249904633_1914194838819405</string>
+    <string name="fan_interestial_placement_id">1670009249904633_1914195998819289</string>
+    <!--Sinch VOIP call-->
+    <string name="sinch_app_key">dbf57a48-679e-4d16-9dec-0b355a9bb2b1</string>
+    <string name="sinch_app_secret">Odhymm7/Bk2+MEOxhTvDOA==</string>
+    <string name="sinch_host_name">clientapi.sinch.com</string>
+    <string name="sinch_center_name">He Vai Soi</string>
+
+    <string name="app_name">Design Ao Dai</string>
+    <string name="title_activity_photo_viewer">Photo Viewer</string>
+    <string name="low_storage_error">Memory is slow, cannot download facedector library.</string>
+    <string name="download_facedectector_error">Cannot download facedetector library.</string>
+    <string name="my_phone">&#xf095; (0251)6554047 - 0974 229229</string>
+    <string name="my_web">&#xf0ac; hevaisoi.com</string>
+    <string name="my_face_page">&#xf09a; facebook/hevaisoi</string>
+
+    <string name="change_brigthness">Change face\'s light</string>
+    <string name="change_clothe">Cloth</string>
+    <string name="change_trousers">Trouser\'s color</string>
+    <string name="change_hair">Hair template</string>
+
+    <string name="action_settings">Language</string>
+    <string name="connection_fail">Cannot connect to server.</string>
+    <string name="load_hair_fail">Cannot load hair template.</string>
+    <string name="connection_cancel">Connection with server is terminate.</string>
+    <string name="product_list_empty">Cannot load data.</string>
+    <string name="product_list_retrieving_data">Loading...</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="product_unit_price">%1$s VND</string>
+    <string name="cannot_load_hair">Cannot load data for hair template.</string>
+    <string name="cannot_load_cloth">Cannot load data for cloth.</string>
+    <string name="camera_request_permission">App need to access your camera to scan your face.</string>
+    <string name="write_storage_request_permission">App need permission to access phone\'s memory</string>
+    <string name="no_camera_permission">App still not have permission to access your camera.</string>
+    <string name="no_write_storage_permission">App still not have permission to access phone\'s memory</string>
+    <string name="ok">Ok</string>'
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="face_cannot_detect">Cannot detect your face.</string>
+    <string name="face_irregular_detect">Your face is unsuitable.</string>
+    <string name="network_share">Share your design</string>
+    <string name="network_social">Social Network</string>
+    <string name="face_scan_not_good">Cannot detect face.</string>
+    <string name="face_scan_good">Detected, scanning...</string>
+    <string name="select_cloth_title">Cloth catalogue</string>
+    <string name="error_when_load_catalog">Cannot download cloth catalogue, please restart App.</string>
+    <string name="show_ad_request_message">We will show a small advertise to you,we need money to run this App. Do you want to help us?</string>
+    <string name="show_firebase_notice">"%1$s. Do you want to open it?"</string>
+    <string name="default_notification_channel_id">0</string>
+    <string name="face_not_yet_download">Face detector dependencies are not yet available, you should come back after 15 minutes.</string>
+    <string name="exit_app_message">Do you want exit this app?</string>
+</resources>

@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".FaceTrackerActivity">
+
+    <com.hevaisoi.android.camera.CameraSourcePreview
+        android:id="@+id/facePreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true">
+        <!--  <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/img_face_shape_scan"
+              android:src="@drawable/face_shape_scan"
+              android:scaleType="fitXY"
+              android:layoutDirection="locale"
+              tools:ignore="ContentDescription" />-->
+        <com.hevaisoi.android.camera.GraphicOverlay
+            android:id="@+id/faceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.hevaisoi.android.camera.CameraSourcePreview>
+
+    <ImageView
+        android:id="@+id/img_face_shape_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/face_shape_scan" />
+
+    <LinearLayout
+        android:id="@+id/face_tracker_bottom_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+        <!-- <com.google.android.gms.ads.AdView
+             android:id="@+id/admob_adview"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             ads:adSize="BANNER"
+             ads:adUnitId="@string/banner_home_footer"
+             android:layout_marginBottom="5dp"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/face_scan_bottom_height"
+            android:layout_marginTop="5dp"
+            android:background="@color/action_bar_color"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/text_face_scan_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/face_scan_not_good"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                tools:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/progress_face_scan_status"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:indeterminate="false"
+                android:maxHeight="20dip"
+                android:minHeight="20dip"
+                android:progress="0"
+                android:progressDrawable="@drawable/progress_yellow" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

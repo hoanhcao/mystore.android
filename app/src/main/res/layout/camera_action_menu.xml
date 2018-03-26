@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_open_photo"
+        android:src="@raw/image_select_32"
+        android:layout_alignParentLeft="true"
+        style="@style/PhotoActivityButton"
+        android:background="@drawable/button_selector"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_switch_camera"
+        android:src="@raw/switch_camera_32"
+        android:layout_alignParentRight="true"
+        style="@style/PhotoActivityButton"
+        android:background="@drawable/button_selector"/>
+</RelativeLayout>

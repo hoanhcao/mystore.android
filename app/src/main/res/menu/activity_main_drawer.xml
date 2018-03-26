@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_change_brightness"
+            android:icon="@drawable/ic_change_brigthness"
+            android:title="@string/change_brigthness" />
+        <item
+            android:id="@+id/nav_change_cloth"
+            android:icon="@drawable/ic_back_clothe_female"
+            android:title="@string/change_clothe" />
+        <item
+            android:id="@+id/nav_change_trousers"
+            android:icon="@drawable/ic_black_trousers"
+            android:title="@string/change_trousers" />
+        <item
+            android:id="@+id/nav_change_hair"
+            android:icon="@drawable/ic_women_hair"
+            android:title="@string/change_hair" />
+    </group>
+
+    <item android:title="@string/network_social">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/network_share" />
+        </menu>
+    </item>
+
+</menu>
